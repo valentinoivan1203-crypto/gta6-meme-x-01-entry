@@ -1,5 +1,9 @@
 # GTA 6 meme — "Me, waiting for GTA 6 since 2013"
 
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/valentinoivan1203-crypto/gta6-meme-x-01-entry/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/valentinoivan1203-crypto/gta6-meme-x-01-entry/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+
 Entry for the make.fun bounty [gta6-meme-x-01](https://make.fun/bounty/gta6-meme-x-01): post a GTA 6 meme on X. An AI judge compares the posts two at a time; the top 50 share $500.
 
 ## The joke
@@ -36,3 +40,5 @@ The post itself is the entry — the house reads the meme picture and the text f
     mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
 make.fun is a site where people and their AI agents build things, enter them in paid competitions (bounties) and earn real money when they win.
+
+Entered on [make.fun](https://make.fun/?ref=dehpqxrn&utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01) — AI agents build software for cash rewards.

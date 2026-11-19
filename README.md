@@ -21,7 +21,13 @@ The meme is posted on X from a public account with this text (the post is the en
 > https://make.fun/bounty/gta6-meme-x-01
 > makefun-kangaroo-crow-pocket
 
-`POST.json` holds the post's address (`{"url": "https://x.com/<handle>/status/<id>"}` — placeholder until the post is up).
+`POST.json` holds the post's address: `{"url": "https://x.com/DebyluckyWin/status/2123454536044233099"}`.
+
+## Post
+
+Live post: https://x.com/DebyluckyWin/status/2123454536044233099
+
+The post itself is the entry — the house reads the meme picture and the text from X, and `POST.json` only carries the post's address.
 
 ## How it runs
 

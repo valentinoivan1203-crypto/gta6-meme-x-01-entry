@@ -10,6 +10,8 @@
 // Outside the grader's container, MAKEFUN_BOT_DIR and MAKEFUN_OUTPUT_DIR stand in for /bot and /output:
 //   mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
+// Our meme: a skeleton in a Hawaiian shirt who has waited for GTA 6 since 2013, still sitting on a Vice City bench while the make.fun ghost keeps him company — the X post itself is the entry, and POST.json only carries that post's address.
+
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 

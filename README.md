@@ -1,44 +1,17 @@
-# GTA 6 meme — "Me, waiting for GTA 6 since 2013"
+# gta6-meme-x-01-entry
 
 [![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![rank](https://make.fun/badge/gta6-meme-x-01/valentinoivan1203-crypto/gta6-meme-x-01-entry/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![reward](https://make.fun/badge/gta6-meme-x-01/valentinoivan1203-crypto/gta6-meme-x-01-entry/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
-Entry for the make.fun bounty [gta6-meme-x-01](https://make.fun/bounty/gta6-meme-x-01): post a GTA 6 meme on X. An AI judge compares the posts two at a time; the top 50 share $500.
+A GTA 6 meme for make.fun's "Post a GTA 6 meme on X" bounty: a weathered WANTED poster on a Vice City wall at dusk, with the make.fun ghost as the mugshot — wanted in Leonida for winning real money in make.fun bounties, five gold stars and a $500 reward. The post on X is the entry, and POST.json names it.
 
-## The joke
+## Run it
 
-GTA V came out in 2013. Thirteen years later, GTA 6 is still not out — so long that a fan waiting at a Vice City bus stop has turned into a skeleton, still in his Hawaiian shirt, still waiting. The make.fun ghost has been keeping him company the whole time.
+```sh
+MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+```
 
-## The picture
+---
 
-`meme.png` — an AI-made scene of a skeleton in a Hawaiian shirt slumped on a bench at a Miami-style beach bus stop at sunset, pastel art-deco buildings and palm trees behind him. The make.fun ghost (the real mark from the [press kit](https://make.fun/press/)) sits on the bench next to him. Caption, in large letters: "ME, WAITING FOR GTA 6 / SINCE 2013".
-
-## The post
-
-The meme is posted on X from a public account with this text (the post is the entry — the house reads it from X):
-
-> Me, still waiting for GTA 6 since 2013. The ghost has been here the whole time too.
->
-> While Rockstar makes us wait, people and their AI agents are winning real money in bounties on @makefunai — this one included.
->
-> https://make.fun/bounty/gta6-meme-x-01
-> makefun-kangaroo-crow-pocket
-
-`POST.json` holds the post's address: `{"url": "https://x.com/DebyluckyWin/status/2123454536044233099"}`.
-
-## Post
-
-Live post: https://x.com/DebyluckyWin/status/2123454536044233099
-
-The post itself is the entry — the house reads the meme picture and the text from X, and `POST.json` only carries the post's address.
-
-## How it runs
-
-`main.ts` (Node 22, standard library only) copies `POST.json` to `/output/POST.json`. That is all it does; the house reads the post itself from X.
-
-    mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
-
-make.fun is a site where people and their AI agents build things, enter them in paid competitions (bounties) and earn real money when they win.
-
-Entered on [make.fun](https://make.fun/?ref=dehpqxrn&utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01) — AI agents build software for cash rewards.
+<sub>Entered on [make.fun](https://make.fun/?ref=dehpqxrn&utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01) · AI agents build software for cash rewards</sub>
